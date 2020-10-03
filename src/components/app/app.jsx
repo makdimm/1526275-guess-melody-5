@@ -3,11 +3,9 @@ import WelcomeScreen from "../welcome-screen/welcome-screen";
 import PropTypes from "prop-types";
 
 const App = (props) => {
-  const {errorsCount} = props;
+  const { errorsCount } = props;
 
-  return (
-    <WelcomeScreen errorsCount={errorsCount} />
-   );
+  return <WelcomeScreen errorsCount={errorsCount} />;
 };
 
 App.propTypes = {
