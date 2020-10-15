@@ -8,7 +8,6 @@ import Lose from "../Lose/Lose";
 import DevArtist from "../DevArtist/DevArtist";
 import DevGenre from "../DevGenre/DevGenre";
 
-
 const App = (props) => {
   const { errorsCount } = props;
 
@@ -19,19 +18,19 @@ const App = (props) => {
           <WelcomeScreen errorsCount={errorsCount} />;
         </Route>
         <Route path="/login" exact>
-          <SignIn/>
+          <SignIn />
         </Route>
         <Route path="/result" exact>
-          <Result/>
+          <Result />
         </Route>
         <Route path="/lose" exact>
-          <Lose/>
+          <Lose />
         </Route>
         <Route path="/dev-artist" exact>
-          <DevArtist/>
+          <DevArtist />
         </Route>
         <Route path="/dev-genre" exact>
-          <DevGenre/>
+          <DevGenre />
         </Route>
       </Switch>
     </BrowserRouter>
