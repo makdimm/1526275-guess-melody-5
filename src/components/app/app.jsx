@@ -18,6 +18,7 @@ const App = (props) => {
       <Switch>
         <Route
           path="/"
+          exact
           render={({ history }) => (
             <WelcomeScreen
               errorsCount={errorsCount}

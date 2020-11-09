@@ -97,7 +97,7 @@ DevArtist.propTypes = {
         picture: PropTypes.string.isRequired,
         artist: PropTypes.string.isRequired,
       })
-    ).is.Required,
+    ).isRequired,
     song: PropTypes.shape({
       artist: PropTypes.string.isRequired,
       src: PropTypes.string.isRequired,
